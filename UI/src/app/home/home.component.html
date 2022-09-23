@@ -1,6 +1,6 @@
 <div class="row mt-5">
-    <div *ngFor="let product of products" class="card m-3 shadow" style="width: 18rem;">
-        <img class="card-img-top" src="{{'http://localhost:8080/image/'+product.productId+'.png'}}" style="max-height: 300px;" alt="Card image cap">
+    <div *ngFor="let product of products" class="card m-3 shadow zoom-in-out-box" style="width: 18em;">
+        <img class="card-img-top" height="200" width="100" src="{{'http://localhost:8080/image/'+product.productId+'.png'}}"  alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">{{product.productName}}</h5>
       

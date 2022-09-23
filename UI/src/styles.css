@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+.zoom-in-out-box {
+    animation: zoom-out 1s ease !important;
+  }
+
+  @keyframes zoom-out {
+    0% {
+      transform: scale(0.5, 0.5);
+    }
+    50% {
+      transform: scale(1.25, 1.2.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
